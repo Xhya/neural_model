@@ -1,0 +1,5 @@
+Compile with:
+> make
+An exe ./modeling is created in previous repertory.
+
+This code is a computational model of cerebellar circuitry implied in eyeblink classical conditioning. It aims to reproduce cerebellar activity during eyeblink conditioning. At the end of the execution, two vectors are created for time and voltage values. 

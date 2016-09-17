@@ -1,0 +1,8 @@
+Compiler avec le makefile et exécuter:
+
+> make
+> ./run
+
+Deux fichiers sont créés dans le dossier results. Pour visualiser les données, lancer le fichier test.R sous R.
+
+Comparer les résultats avec le script Python visu.py
