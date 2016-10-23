@@ -10,7 +10,7 @@ I made up a graphical interface to do tests on the network and adjust the parame
 
 
 
-To run the program:
+To run the program, download the code and simply write these following commands:
 	> make
 	> ./run
 	
