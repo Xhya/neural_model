@@ -20,8 +20,8 @@ C++14 : http://scholtyssek.org/blog/2015/06/11/install-gcc-with-c14-support-on-u
 <br>
 Gtkmm : http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.22/
 
-To run the program, download the code above, decompress then simply write these following commands:
-	> make
+To run the program, download the code above, decompress then simply write these following commands: <br>
+	> make <br>
 	> ./run
 	
 
