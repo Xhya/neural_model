@@ -5,14 +5,14 @@ A computational model in C++ of cerebellar circuitry implied in delay eyeblink c
 
 The first step of the experiment is to put a tone from 100ms to 450ms. Then at time 400ms you put an airpuff into the eye of the rabbit; its eye will normally blink. You repeat the experiment several times to "train" the rabbit, then you'll notice that it will blink just before the entry of the air into the eye in order to prevent damage. It suggests that there's a learning of timing between the conditioned stimulus (tone) and the unconditioned stimulus (airpuff). I have implemented the following network, using a LIF model for spiking neurons. Here is the network I implemented:
 
-![network](https://cloud.githubusercontent.com/assets/16878984/19627798/f5dabd5a-994f-11e6-88c8-48b18ca336e8.png)
+<img align="center" src="Images/network.png" height="400" alt="experiment" />
 
 
 For the timing learning, I used an classical Hebbian learning between granule cells and basket cells. And an inversed Hebbian learning between granule cells and Purkinje cells.
 
-I made up a graphical interface to do tests on the network and adjust the parameters. Here is a picture of some result:
+I made up a graphical interface to do tests on the network and adjust the parameters. Here is a picture of the interface:
 
-
+<img align="center" src="Images/Gui.png" height="400" alt="experiment" />
 
 
 To compile you must have C++14 STL and Gtkmm librairy on your computer. Here are the links:
