@@ -12,7 +12,12 @@ I made up a graphical interface to do tests on the network and adjust the parame
 
 
 
-To run the program, download the code and simply write these following commands:
+To compile you must have C++14 STL and Gtkmm librairy on your computer. Here are the links:
+
+C++14 : http://scholtyssek.org/blog/2015/06/11/install-gcc-with-c14-support-on-ubuntumint/
+Gtkmm : http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.22/
+
+To run the program, download the code above, decompress then simply write these following commands:
 	> make
 	> ./run
 	
