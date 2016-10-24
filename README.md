@@ -1,6 +1,7 @@
 A computational model in C++ of cerebellar circuitry implied in delay eyeblink classical conditioning. Classical conditioning is a theory dealing with learning results impliying a link between an environmental stimulus and an automatic reaction of the organism. my goal was to model the following experiment:
 
-<img src="Images/experiment.png" style="width: 200px;"/>
+
+<p style="text-align:center"><img src="Images/experiment.png" height="400"/></p>
 
 The first step of the experiment is to put a tone from 100ms to 450ms. Then at time 400ms you put an airpuff into the eye of the rabbit; its eye will normally blink. You repeat the experiment several times to "train" the rabbit, then you'll notice that it will blink just before the entry of the air into the eye in order to prevent damage. It suggests that there's a learning of timing between the conditioned stimulus (tone) and the unconditioned stimulus (airpuff). I have implemented the following network, using a LIF model for spiking neurons. Here is the network I implemented:
 
