@@ -1,4 +1,4 @@
- <p align="justify"> A computational model in C++ of cerebellar circuitry implied in delay eyeblink classical conditioning. Classical conditioning is a theory dealing with learning results impliying a link between an environmental stimulus and an automatic reaction of the organism. my goal was to model the following experiment: </p>
+ <p align="justify"> A computational model in C++ of cerebellar circuitry implied in delay eyeblink classical conditioning. Classical conditioning is a theory dealing with learning results impliying a link between an environmental stimulus and an automatic reaction of the organism. My goal was to obtain the same results of the following experiment: </p>
 
 <img align="center" src="Images/experiment.png" height="400" alt="experiment" />
 
